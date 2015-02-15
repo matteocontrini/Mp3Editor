@@ -1,0 +1,15 @@
+﻿<Window x:Class="Mp3Editor.DropWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="350">
+    <Grid Drop="Grid_Drop" AllowDrop="True">
+        <Border Background="White">
+            <TextBlock Text="Drop file here"
+                       Foreground="#4A4A4A"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       ClipToBounds="True"
+                       FontSize="30" />
+        </Border>
+    </Grid>
+</Window>
